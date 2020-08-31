@@ -1,15 +1,18 @@
 # SmartWaterValve
 
+## 介绍
+这是我和我的小伙伴在大四上学期进行的物联网课设。可惜完成状况不是很好(虽然当时觉得很不错，而且相比确实很不错)。
+
 ## To do list
 
-- [ ] URL/UserRegister  
+- [x] URL/UserRegister  
 	微信用户 openID  
 	制作用户注册页面  
 
-- [ ] URL/UserLogin  
+- [x] URL/UserLogin  
 	制作用户登录页面  
 
-- [ ] URL/addDevice  
+- [x] URL/addDevice  
 	制作添加设备页面  
 	调用微信小程序二维码识别 API，读取一个数字字符串，保存至添加设备页面下的 js data 中  
 
@@ -54,11 +57,11 @@
 - [x] URL/DeviceHistoryInfo  
         获取某设备相关的运行历史
 	
-- [ ] URL/addAccessCtrlUsers  
+- [x] URL/addAccessCtrlUsers  
         为某用户授权某设备的权限  
 	
-- [ ] URL/getAccessCtrlUsers  
+- [x] URL/getAccessCtrlUsers  
         获取拥有某设备的账户列表及详情  
 	
-- [ ] URL/delAccessCtrlUsers  
+- [x] URL/delAccessCtrlUsers  
         删除某用户对于某设备的所有权限  
